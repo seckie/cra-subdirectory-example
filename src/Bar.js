@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-function App() {
+const Bar = () => {
   return (
     <div>
-      <h1>Root</h1>
+      <h1>Bar</h1>
       <p>
       <Link to="/index.html">Root</Link> / 
       <Link to="/foo">Foo</Link> / 
@@ -11,6 +11,6 @@ function App() {
       </p>
     </div>
   );
-}
+};
 
-export default App;
+export default Bar;
